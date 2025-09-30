@@ -1,0 +1,5 @@
+Формула линии тренда:
+Y = a + bx + epsilon
+где:
+b = (mean(x*y) - mean(x) * mean(y)) / (mean(x**2) - mean(x)**2)
+a = mean(y) - b*mean(x)
