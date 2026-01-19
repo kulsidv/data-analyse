@@ -1,0 +1,99 @@
+                  Nr. Reference Date Principal Practitioner Name CVRM Organisation Name (CVRM Treatment)  Organisation Name (CVRM Treatment).1 Treatment Startdate CVRM  Risk Score CVRM          MDRD MDRD, last measurement date  Glucose Fasting Glucose Fasting, last measurement date  Total Cholesterol Total Cholesterol, last measurement date  Systolic Blood Pressure  Diastolic Blood Pressure Systolic Blood Pressure, last measurement date            BMI BMI, last measurement date Primary / Secondary CVRM Smoking Status Date Last Contact CVRM Patient Gender            Age Hypertension Annual Checkup CVRM (Dutch version), Date Last Annual Checkup CVRM (Russian version), Date Last Date Last Interim Checkup CVRM (Dutch version) Date Last Interim Checkup CVRM (Russian version)
+count   115262.000000         115262                           115262                             115262                         115262.000000                   115262     72439.000000  42124.000000                       42124    104119.000000                                 104119      109147.000000                                   109147            109718.000000             109718.000000                                         109718  103106.000000                     103106                   115262         107023                 113556         115262  115262.000000        95878                                          26333                                            97976                                           1671                                            37427
+unique            NaN              1                              859                                 36                                   NaN                      765              NaN           NaN                        1161              NaN                                   1339                NaN                                     1343                      NaN                       NaN                                            864            NaN                        852                        2              3                    833              2            NaN            2                                            359                                              798                                            125                                              699
+top               NaN     2020-12-31        Юминова, Ольга Васильевна                    ГКБ №7 г.Казань                                   NaN               2019-10-30              NaN           NaN                  2019-10-10              NaN                             2019-12-02                NaN                               2019-09-09                      NaN                       NaN                                     2019-12-04            NaN                 2019-10-30                  Primary          Never             2019-12-04              F            NaN          Yes                                     2018-11-29                                       2019-12-04                                     2018-12-18                                       2020-11-29
+freq              NaN         115262                             1711                              11574                                   NaN                      965              NaN           NaN                         255              NaN                                    614                NaN                                      679                      NaN                       NaN                                            806            NaN                        718                    99190         102076                    825          78123            NaN        84494                                            834                                              824                                             84                                              356
+mean     57631.500000            NaN                              NaN                                NaN                              1.137730                      NaN         3.934359     80.209738                         NaN         5.322688                                    NaN           5.506643                                      NaN               137.139594                 83.541206                                            NaN      27.696894                        NaN                      NaN            NaN                    NaN            NaN      62.571455          NaN                                            NaN                                              NaN                                            NaN                                              NaN
+std      33273.417701            NaN                              NaN                                NaN                              0.344618                      NaN         3.210594    117.685203                         NaN         1.768305                                    NaN           2.127684                                      NaN                13.578448                  8.054937                                            NaN       5.815085                        NaN                      NaN            NaN                    NaN            NaN      12.227310          NaN                                            NaN                                              NaN                                            NaN                                              NaN
+min          1.000000            NaN                              NaN                                NaN                              1.000000                      NaN         0.000000      0.000000                         NaN         0.100000                                    NaN           0.200000                                      NaN                70.000000                  0.000000                                            NaN       1.000000                        NaN                      NaN            NaN                    NaN            NaN       0.000000          NaN                                            NaN                                              NaN                                            NaN                                              NaN
+25%      28816.250000            NaN                              NaN                                NaN                              1.000000                      NaN         2.000000     62.000000                         NaN         4.600000                                    NaN           4.800000                                      NaN               130.000000                 80.000000                                            NaN      25.000000                        NaN                      NaN            NaN                    NaN            NaN      56.000000          NaN                                            NaN                                              NaN                                            NaN                                              NaN
+50%      57631.500000            NaN                              NaN                                NaN                              1.000000                      NaN         3.000000     71.000000                         NaN         5.100000                                    NaN           5.400000                                      NaN               139.000000                 80.000000                                            NaN      27.000000                        NaN                      NaN            NaN                    NaN            NaN      63.000000          NaN                                            NaN                                              NaN                                            NaN                                              NaN
+75%      86446.750000            NaN                              NaN                                NaN                              1.000000                      NaN         5.000000     83.000000                         NaN         5.600000                                    NaN           6.000000                                      NaN               145.000000                 90.000000                                            NaN      30.000000                        NaN                      NaN            NaN                    NaN            NaN      70.000000          NaN                                            NaN                                              NaN                                            NaN                                              NaN
+max     115262.000000            NaN                              NaN                                NaN                              2.000000                      NaN        47.000000   7493.000000                         NaN       100.000000                                    NaN          99.000000                                      NaN               250.000000                160.000000                                            NaN     457.000000                        NaN                      NaN            NaN                    NaN            NaN     184.000000          NaN                                            NaN                                              NaN                                            NaN                                              NaN
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 115262 entries, 0 to 115261
+Data columns (total 28 columns):
+ #   Column                                            Non-Null Count   Dtype  
+---  ------                                            --------------   -----  
+ 0   Nr.                                               115262 non-null  int64  
+ 1   Reference Date                                    115262 non-null  object 
+ 2   Principal Practitioner Name CVRM                  115262 non-null  object 
+ 3   Organisation Name (CVRM Treatment)                115262 non-null  object 
+ 4   Organisation Name (CVRM Treatment).1              115262 non-null  int64  
+ 5   Treatment Startdate CVRM                          115262 non-null  object 
+ 6   Risk Score CVRM                                   72439 non-null   float64
+ 7   MDRD                                              42124 non-null   float64
+ 8   MDRD, last measurement date                       42124 non-null   object 
+ 9   Glucose Fasting                                   104119 non-null  float64
+ 10  Glucose Fasting, last measurement date            104119 non-null  object 
+ 11  Total Cholesterol                                 109147 non-null  float64
+ 12  Total Cholesterol, last measurement date          109147 non-null  object 
+ 13  Systolic Blood Pressure                           109718 non-null  float64
+ 14  Diastolic Blood Pressure                          109718 non-null  float64
+ 15  Systolic Blood Pressure, last measurement date    109718 non-null  object 
+ 16  BMI                                               103106 non-null  float64
+ 17  BMI, last measurement date                        103106 non-null  object 
+ 18  Primary / Secondary CVRM                          115262 non-null  object 
+ 19  Smoking Status                                    107023 non-null  object 
+ 20  Date Last Contact CVRM                            113556 non-null  object 
+ 21  Patient Gender                                    115262 non-null  object 
+ 22  Age                                               115262 non-null  int64  
+ 23  Hypertension                                      95878 non-null   object 
+ 24  Annual Checkup CVRM (Dutch version), Date Last    26333 non-null   object 
+ 25  Annual Checkup CVRM (Russian version), Date Last  97976 non-null   object 
+ 26  Date Last Interim Checkup CVRM (Dutch version)    1671 non-null    object 
+ 27  Date Last Interim Checkup CVRM (Russian version)  37427 non-null   object 
+dtypes: float64(7), int64(3), object(18)
+memory usage: 24.6+ MB
+       Systolic Blood Pressure  Diastolic Blood Pressure  Risk Score CVRM           BMI  Glucose Fasting  Total Cholesterol          MDRD           Age  Smoking Status_numeric  Patient Gender_numeric  Hypertension_numeric
+count             26288.000000              26288.000000     26288.000000  26288.000000     26288.000000       26288.000000  26288.000000  26288.000000            26288.000000            26288.000000          26288.000000
+mean                138.243153                 83.475540         4.028606     27.930082         5.331406           5.491532     73.074711     64.078743                0.031231                0.273281              0.809875
+std                  11.912125                  7.019795         3.138808      4.358508         1.267851           0.877455     15.174715      9.737919                0.173945                0.445652              0.392407
+min                  90.000000                 40.000000         0.000000     15.000000         3.000000           3.100000     15.000000     40.000000                0.000000                0.000000              0.000000
+25%                 130.000000                 80.000000         2.000000     25.000000         4.700000           4.900000     62.000000     58.000000                0.000000                0.000000              1.000000
+50%                 140.000000                 80.000000         3.000000     27.000000         5.100000           5.400000     71.000000     64.000000                0.000000                0.000000              1.000000
+75%                 145.000000                 90.000000         5.000000     30.000000         5.600000           6.000000     82.000000     70.000000                0.000000                1.000000              1.000000
+max                 220.000000                120.000000        47.000000     45.000000        23.500000           8.800000    140.000000    174.000000                1.000000                1.000000              1.000000
+<class 'pandas.core.frame.DataFrame'>
+Index: 26288 entries, 1 to 115259
+Data columns (total 11 columns):
+ #   Column                    Non-Null Count  Dtype  
+---  ------                    --------------  -----  
+ 0   Systolic Blood Pressure   26288 non-null  float64
+ 1   Diastolic Blood Pressure  26288 non-null  float64
+ 2   Risk Score CVRM           26288 non-null  float64
+ 3   BMI                       26288 non-null  float64
+ 4   Glucose Fasting           26288 non-null  float64
+ 5   Total Cholesterol         26288 non-null  float64
+ 6   MDRD                      26288 non-null  float64
+ 7   Age                       26288 non-null  int64  
+ 8   Smoking Status_numeric    26288 non-null  int64  
+ 9   Patient Gender_numeric    26288 non-null  int64  
+ 10  Hypertension_numeric      26288 non-null  int64  
+dtypes: float64(7), int64(4)
+memory usage: 2.4 MB
+Медиана Systolic Blood Pressure: 140.0
+Медиана Diastolic Blood Pressure: 80.0
+Медиана Risk Score CVRM: 3.0
+Медиана BMI: 27.0
+Медиана Glucose Fasting: 5.1
+Медиана Total Cholesterol: 5.4
+Медиана MDRD: 71.0
+Медиана Age: 64.0
+Медиана Smoking Status_numeric: 0.0
+Медиана Patient Gender_numeric: 0.0
+Медиана Hypertension_numeric: 1.0
+                          Systolic Blood Pressure  Diastolic Blood Pressure  Risk Score CVRM       BMI  Glucose Fasting  Total Cholesterol      MDRD       Age  Smoking Status_numeric  Patient Gender_numeric  Hypertension_numeric
+Systolic Blood Pressure                  1.000000                  0.535088         0.398642  0.155332         0.060463           0.074957 -0.111757  0.114256               -0.006603                0.017493              0.182691
+Diastolic Blood Pressure                 0.535088                  1.000000         0.214406  0.110550         0.027089           0.059829 -0.063071  0.024711                0.011265                0.033096              0.119509
+Risk Score CVRM                          0.398642                  0.214406         1.000000  0.006956         0.084123           0.183105  0.139484  0.442619                0.237561                0.543925              0.104084
+BMI                                      0.155332                  0.110550         0.006956  1.000000         0.185659           0.101552 -0.072510 -0.029973               -0.011671               -0.103325              0.030195
+Glucose Fasting                          0.060463                  0.027089         0.084123  0.185659         1.000000           0.196579 -0.072034  0.053028               -0.009381               -0.012935              0.054814
+Total Cholesterol                        0.074957                  0.059829         0.183105  0.101552         0.196579           1.000000 -0.066650 -0.016719                0.014170               -0.074603              0.013952
+MDRD                                    -0.111757                 -0.063071         0.139484 -0.072510        -0.072034          -0.066650  1.000000 -0.252070                0.131808                0.525597             -0.063646
+Age                                      0.114256                  0.024711         0.442619 -0.029973         0.053028          -0.016719 -0.252070  1.000000               -0.106850               -0.081187              0.122894
+Smoking Status_numeric                  -0.006603                  0.011265         0.237561 -0.011671        -0.009381           0.014170  0.131808 -0.106850                1.000000                0.239794             -0.028372
+Patient Gender_numeric                   0.017493                  0.033096         0.543925 -0.103325        -0.012935          -0.074603  0.525597 -0.081187                0.239794                1.000000             -0.017651
+Hypertension_numeric                     0.182691                  0.119509         0.104084  0.030195         0.054814           0.013952 -0.063646  0.122894               -0.028372               -0.017651              1.000000
+Точность разделения данных: 0.7006618989653074
+Коэффициент детерминации для множественной регрессии: 0.06163974599828592

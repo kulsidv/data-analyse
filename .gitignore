@@ -1,2 +1,5 @@
 /venv
 /.mypy_cache
+/*/*.pptx
+/*/*.docx
+/practice_3/*.csv

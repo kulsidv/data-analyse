@@ -86,7 +86,7 @@ def predict_and_bench(X_test, y_test, net):
 
 
 def main():
-    df = pd.read_csv('data (1).csv', sep=';')  # данные из 2-ой практики 
+    df = pd.read_csv('data (1).csv', sep=';')
     df = df.iloc[:3000].copy()
     df['CLOSE'] = df['CLOSE']
     df['INDEX'] = range(3000)
@@ -115,7 +115,7 @@ def main():
     net = ThreeLayersNetwork()
     optimizer = torch.optim.SGD(net.parameters(), 0.001)
 
-    fit(X_train, y_train, net, optimizer=optimizer, epoches=500)
+    fit(X_train, y_train, net, optimizer=optimizer, epoches=100)
     accuracy = predict_and_bench(x_test, y_test, net)
     print(accuracy)
 
